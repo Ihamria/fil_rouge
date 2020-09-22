@@ -1,0 +1,576 @@
+/* body    {
+    background-color: #DCDCDC !important;
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #f8f9fa;
+    height: 100px;
+    width: 100%;
+}
+.logo {
+    height: 90px;
+    width: 7%;
+    padding: 12px;
+    margin-top: -0.7%;
+}
+
+.menu{
+    margin-left: 34%;
+    line-height: 80px;
+    margin-top: -95px;
+  }
+  .menu a{
+    color: #707070;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family:Segoe UI , sans-serif ;
+  }
+  .show-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: open sans-serif;
+  } 
+ 
+.bttn{
+    float: right;
+    margin-top: -4%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+}
+.bttn .botton2 ,.bttn .botton1{
+    padding-top: 11px;
+    margin-left: 1%;
+    text-align: center;
+    color: #707070;
+    text-decoration: none;
+    font-family: Segoe UI , sans-serif;
+    width: 147px;
+    height: 37px;
+    border: transparent;
+    background: #DCDCDC;
+    border-radius: 30px;
+
+}
+ 
+.bttn .botton1 , .botton2 {
+    padding-top: 4px;
+    margin-left: 1%;
+    text-align: center;
+    color: #707070;
+}
+.bttn .botton2 ,.bttn .botton1{
+    margin-left: 5px;
+    width: 147px;
+    height: 37px;
+    border: transparent;
+    background: #DCDCDC;
+    border-radius: 30px;
+    padding-top: 2px;
+}
+.slide .carrer{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+}
+.slide .typewriter {
+    font-family: Courier, monospace;
+    display: inline-block;
+  
+}
+
+.slide .typewriter-text {
+    line-height: 47px;
+    position: absolute;
+    top: 46%;
+    left: 10%;
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+    animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    /* animation-iteration-count: infinite; */
+    white-space: nowrap;
+    font-size: 50px;
+    font-weight: 700;
+    border-right: 4px solid white;
+    box-sizing: border-box;
+    color: white;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 54% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: white; 
+    }
+}
+
+.contour{
+    background-color: white;
+    height: 57px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 40px;
+    border: solid 2px black;
+    margin-top: 7%;
+}
+
+.contour  .search1 {
+    height: 40px ;
+    width: 45% ;
+    border-color: transparent;
+    outline: none;
+    margin-left: 24px;
+    background-color:transparent;
+    font-family: monospace;
+    font-size: inherit;
+}
+.contour form  .search2{
+    font-size: inherit;
+    left: 0%;
+    height: 60px;
+    width: 44%;
+    border-color: transparent;
+    border-left: 2px solid black;
+    outline: none;
+    top: -1px;
+    position: relative;
+    background-color: transparent;
+    font-family: monospace;
+
+}
+.contour a img {
+    height: 29px;
+    width: 3%;
+    margin-left: 46.7%;
+    margin-top: -85px;
+    position: absolute;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+}
+.info .texte{
+    background-color: #A5CDEF;
+    width: 50%;
+    height: 300px;
+    margin-top: 4%;
+    color: white;
+}
+.info .texte h3{
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 3%;
+    padding: 20px;
+}
+.info .texte p{
+    text-align: center;
+    font-family: Segoe UI;
+}
+.info .photo h5{
+    background-color: white;
+    z-index: 77;
+    position: absolute;
+    width: 50%;
+    height: 300px;opacity: 0.4;
+}
+.info .photo{
+    margin-top: 4%;
+    width: 50%; 
+}
+.info2 .titre{
+ padding: 2%;
+ color: #A5CDEF;
+ text-decoration-line: underline;
+}
+.info2 .para{
+    margin-left: 3%;
+    line-height: 35px;
+    color: black;
+}
+
+.footer{
+    /* border-top: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    margin-top: 20%;
+
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.footer1 .logo{
+    margin-left: 2%;
+    width: 30%;
+}
+.footer1 .adress a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+.copyright{
+    padding: 0;
+    background-color: #DCDCDC;
+    height: 40px;
+    margin-left: -4%;
+}
+.copyright h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding-top: 3px;
+}
+.sm{
+    margin-left: 18%;
+    margin-top: 3%;
+}
+.sm img{
+    height: 30px;
+    width: 6%;
+    
+}
+.sm .insta{
+    margin-bottom: -16px;
+    height: 60px;
+    width: 10%;
+
+}
+.box{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+
+}
+#boxes h2{
+        color: #000000;
+        font-family: monospace;
+        font-size: large;
+}
+#boxes{
+    margin-top: 3%;
+}
+#boxes h5{
+    text-align: center;
+    line-height: 30px;
+    font-size: initial;
+    font-family: monospace;
+    color: #666457;
+}
+.box .box2 h2{
+    margin-top: 43%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .prof {
+    height: 400px;
+    width: 20%;
+    background-color: #f1f1f1;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.container .prof img{
+    height: 100px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+.container .prof h6{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 22px;
+    margin-left: 11%;
+}
+.container .prof .btn{
+    width: 147px;
+    height: 43px;
+    margin-left: 25%;
+    background: #f8f9fa;
+    border-radius: 30px;
+    margin-top: 36px; 
+}
+.search{
+    /* background-color: #DCDCDC; */
+    background-image: url('img/Groupe 5.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 41px;
+    width: 3%;
+    border-radius: 90%;
+    border: transparent;
+    position: absolute;
+    top: 29%;
+    RIGHT: 25.2%;
+}
+.rating{
+    margin-left: 22px;
+    margin-top: 25px;
+}
+.rating .checked {
+    color: orange ;
+  }
+  .content .forme{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+  }
+ .forme input{
+    border: transparent ;
+    border-bottom: solid black;
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 40%;
+    outline: none;
+    background-color: #f8f9fa;
+   
+ }
+ .forme #msg{
+    height: 168px;
+    width: 20%;
+    background-color: white; 
+}
+.forme{
+    display: flex;
+    flex-direction: column; 
+ }
+ #contact{
+    margin-top: 4%;
+    margin-left: 40%;
+     
+ }
+ .form #fname {
+    border: transparent;
+    border-bottom: solid black;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
+    outline: none;
+    background-color: white;
+}
+ .content{
+    display: flex;
+    flex-direction: column;
+ }
+ .submit{
+    width: 20%;
+    height: 40px;
+    background-color: #DCDCDC;
+    margin-left: 40%;
+    margin-top: 4%;
+    border: transparent;
+    border-radius: 30px;
+    color: #707070;
+    outline: none;
+ }
+ #profil{
+    margin-left: 25%;
+    width: 50%;
+ }
+ @media only screen and (max-width: 800px) {
+     .slide img ,.slide .carrer{
+      height: 300px; 
+      margin-top: -26px;  
+     }
+     .slide .typewriter-text{
+        font-size: 20px;
+        margin-top: -200px;
+        margin-left: -31px;
+     }
+     .header .logo{
+        width: 16%;
+        height: 85px;
+    }
+     .contour{
+        width: 60%; 
+        margin-left: 25%;
+        border: 1px solid black;
+        height: 42px;
+        border-radius: 30px;
+     }
+     .contour a img{
+        margin-left: 29%;
+    margin-top: -39px;
+    position: absolute;
+     }
+     @keyframes typing {
+        from { 
+            width: 0% 
+        }
+        to { 
+            width: 48% 
+        }
+    }
+    .info .texte h3{
+        font-size: 19px;
+        margin-left: 45px;
+    }
+    .info .texte p{
+        font-size: 18px;
+        margin-top: 33px;
+    }
+    .sm{
+        margin-left: 7%;
+        margin-top: 3%;
+    }
+    .sm img{
+        height: 29px;
+        width: 15%;
+    }
+    .sm .insta{
+        height: 44px;
+        width: 44%;
+        margin-right: 4px;
+        margin-left: -16px;
+        margin-bottom: -10px;
+    }
+    
+.sm .fb{
+    margin-left: -13px;
+    margin-right: 9px;
+}
+
+    .sm .twitter{
+        height: 29px;
+        width: 17%;
+        margin-right: 4px;
+        margin-left: -16px;
+    }
+    
+    .footer1 .adress h5{
+        font-size: 20px;
+    }
+    .footer1 .logo{
+        width: 100%;
+    }
+    .navbar-nav{
+
+        margin-left: 3%;
+    }
+    .contour .search1{
+        margin-left:9px ;
+
+    }
+}
+/*	
+	Side Navigation Menu V2, RWD
+	===================
+	Author: @heyPablete
+
+ */
+
+ 
+ 
+ body {
+    font-family: monospace;
+    font-weight: 300;
+    font-size: large;
+   color:#A7A1AE;
+ }
+ 
+ h1 {
+   font-size:3em; 
+   font-weight: 300;
+   line-height:1em;
+   text-align: center;
+   color: #f1f1f1;
+ }
+ 
+ h2 {
+   font-size:1em; 
+   font-weight: 300;
+   text-align: center;
+   display: block;
+   line-height:1em;
+   padding-bottom: 2em;
+   color: #f1f1f1;
+ }
+ 
+ h2 a {
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #FB667A;
+   text-decoration: none;
+ }
+ 
+ 
+ .table1 th h1 {
+       font-weight: bold;
+       font-size: 1em;
+   text-align: left;
+   color: #185875;
+ }
+ 
+ .table1 td {
+       font-weight: normal;
+       font-size: 1em;
+   -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+        -moz-box-shadow: 0 2px 2px -2px #0E1119;
+             box-shadow: 0 2px 2px -2px #0E1119;
+ }
+ 
+ .table1 {
+    text-align: left;
+    overflow: hidden;
+    width: 95%;
+    margin: 0 auto;
+    display: table;
+    padding-top: 11px;
+    margin-top: 3%;
+ }
+ 
+ #id{
+    width: 5%;
+}
+#id1{
+    width:  18%;
+}
+ .table1 td, .table1 th {
+       padding-bottom: 2%;
+       padding-top: 2%;
+       padding-left:2%;  
+ }
+ 
+ /* Background-color of the odd rows */
+ .table1 tr{
+       background-color: #707070;
+       color: #f1f1f1;
+ }
+ 
+ /* Background-color of the even rows */
+ 
+ .table1 th {
+       background-color: #f1f1f1;
+ }
+ 
+ #cmd{
+    background-color: #DCDCDC;
+    border: transparent;
+    height: 31px;
+    width: 84%;
+    border-radius: 20px;
+    margin-top: 3%;
+
+ }
